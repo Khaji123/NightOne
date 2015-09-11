@@ -1,0 +1,11 @@
+def fizzbuzz(num_range):    
+for each in num_range:         
+if each % 3 == 0 and each % 5 == 0:             
+print "fizzbuzz"         
+elif each % 3 == 0:             
+print "fizz"         
+elif each % 5 == 0:             
+print "buzz"         
+else:             
+print each  
+print fizzbuzz(range (123456789,20,30))
